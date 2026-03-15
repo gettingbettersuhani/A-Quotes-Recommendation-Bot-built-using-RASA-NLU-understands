@@ -1,0 +1,27 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+
+- intent: sad
+  examples: |
+    - I feel sad
+    - I am depressed
+    - I feel bad
+
+- intent: happy
+  examples: |
+    - I am happy
+    - I feel great
+    - today is a good day
+
+- intent: motivation
+  examples: |
+    - motivate me
+    - give me motivation
+    - inspirational quote

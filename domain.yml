@@ -1,0 +1,23 @@
+version: "3.1"
+
+intents:
+  - greet
+  - sad
+  - happy
+  - motivation
+  - bye
+
+responses:
+
+  utter_greet:
+    - text: "Hello! How are you feeling today?"
+
+  utter_bye:
+    - text: "Goodbye! Take care and stay positive."
+
+actions:
+  - action_quote
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
