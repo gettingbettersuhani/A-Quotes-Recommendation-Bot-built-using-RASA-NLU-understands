@@ -103,6 +103,4 @@ You can also connect the chatbot with the provided **index.html** for a simple w
 
 ---
 
-## Author
 
-Sukhveer Singh Yadav
